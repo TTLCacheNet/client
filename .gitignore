@@ -11,11 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
-package-lock.json
-yarn.lock
-postcss.config.js
-vite.config.js
-eslint.config.js
+# package-lock.json
+# yarn.lock
+# postcss.config.js
+# vite.config.js
+# eslint.config.js
 
 
 # Editor directories and files
