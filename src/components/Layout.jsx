@@ -15,8 +15,8 @@ const Layout = ({ children, currentPage, onPageChange }) => {
 
       <div className="flex-1 flex flex-col overflow-hidden min-w-0">
         <Header 
-          sidebarOpen={sidebarOpen}
-          onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
+          sidepannelOpen={sidepannelOpen}
+          onToggleSidepannel={() => setSidePannelOpen(!sidepannelOpen)}
         />
 
         <main className="flex-1 overflow-y-auto p-6">
