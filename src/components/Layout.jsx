@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import Header from './Header';
-import Sidebar from './SideBar';
+import SidePannel from './SidePannel';
 
 const Layout = ({ children, currentPage, onPageChange }) => {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidepannelOpen, setSidePannelOpen] = useState(true);
 
   return (
     <div className="flex h-screen bg-gray-50">
-      <Sidebar 
-        isOpen={sidebarOpen} 
+      <SidePannel 
+        isOpen={sidepannelOpen} 
         currentPage={currentPage}
         onPageChange={onPageChange}
       />

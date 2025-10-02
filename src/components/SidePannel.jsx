@@ -1,6 +1,6 @@
 import { Home, BarChart3, Table, Settings } from 'lucide-react';
 
-const Sidebar = ({ isOpen, currentPage, onPageChange }) => {
+const SidePannel = ({ isOpen, currentPage, onPageChange }) => {
   const menuItems = [
     { id: 'home', icon: Home, label: '홈' },
     { id: 'dashboard', icon: BarChart3, label: '대시보드' },
@@ -50,4 +50,4 @@ const Sidebar = ({ isOpen, currentPage, onPageChange }) => {
   );
 };
 
-export default Sidebar;
+export default SidePannel;
